@@ -1,8 +1,8 @@
 import  java.util.Scanner;
-public class Input2{
-public static int Sub (int a, int b)
+public class Input4{
+public static int Mul (int a, int b)
 {
-int c= a-b;
+int c= a*b;
 return c;
 }
 public static void main(String args[])
@@ -14,6 +14,6 @@ num1=scob.nextInt();
 System.out.print("Enter a number:");
 int num2;
 num2=scob.nextInt();
-System.out.println(num1 + "-" +num2+ "=" + Sub(num1,num2));
+System.out.println(num1 + " * " +num2+ "=" + Mul(num1,num2));
 }
 }
